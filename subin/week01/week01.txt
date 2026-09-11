@@ -1,0 +1,71 @@
+# ORDER BY
+-- 오름차순 정렬 (데뷔 일자별로 정렬)
+USE market_db; 
+SELECT mem_id, mem_name, birth_date 
+   FROM member 
+   ORDER BY birth_date; -- 데뷔 일자별로 정렬
+ 
+ -- 내림차순 정렬 (최신 날짜부터 정렬) 
+ SELECT mem_id, mem_name, birth_date 
+   FROM member 
+   ORDER BY birth_date DESC;
+   
+SELECT mem_id, mem_name, birth_date, height
+   FROM member 
+   WHERE height >= 163
+   ORDER BY height DESC;
+
+-- 동률일 때 조건 추가 가능
+SELECT mem_id, mem_name, birth_date, height
+   FROM member 
+   WHERE height >= 163
+   -- 키는 내림차순, 키가 동률일 때 데뷔일자는 오름차순
+   ORDER BY height DESC, birth_date ASC; 
+
+-- 3개 행만 보여줌 
+SELECT *
+   FROM member 
+   LIMIT 3;
+   
+-- 데뷔일자가 빠른 멤버 3팀만
+SELECT mem_name, birth_date
+   FROM member
+   ORDER BY birth_date
+   LIMIT 3;
+
+SELECT mem_name, height
+   FROM member
+   ORDER BY height DESC
+   -- 3번째부터 2개 행 
+   LIMIT 3,2;
+
+# GROUP BY
+-- 각각 회원별로 amount 합계를 보여줌
+SELECT mem_id, SUM(amount) FROM buy GROUP BY mem_id;
+
+SELECT mem_id "회원 아이디", SUM(amount) "총 구매 개수"
+   FROM buy GROUP BY mem_id;
+
+SELECT mem_id "회원 아이디", SUM(price*amount) "총 구매 금액"
+   FROM buy GROUP BY mem_id;
+
+-- 전체 횟수에 대한 구매 개수 평균 
+SELECT AVG(amount) "평균 구매 개수" FROM buy;
+
+-- 멤버별 구매 개수 평균 
+SELECT mem_id, AVG(amount) "평균 구매 개수" 
+	FROM buy
+	GROUP BY mem_id;
+	
+-- 총 구매 금액이 1000이 넘는 경우만 보여줌 - 조건 걸 때 HAVING 사용 
+SELECT mem_id "회원 아이디", SUM(price*amount) "총 구매 금액"
+   FROM buy 
+   GROUP BY mem_id   
+   HAVING SUM(price*amount) > 1000 ;
+   
+-- 총 구매 금액이 1000이 넘는 경우, 내림차순으로 보여줌
+SELECT mem_id "회원 아이디", SUM(price*amount) "총 구매 금액"
+   FROM buy 
+   GROUP BY mem_id   
+   HAVING SUM(price*amount) > 1000
+   ORDER BY SUM(price*amount) DESC;
