@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc1d0865-d3ae-421a-8970-f32a68948555" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../week03/hello-spring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week03/hello-spring/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week03/hello-spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week03/hello-spring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week03/hello-spring/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week03/hello-spring/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week03/hello-spring/hello-spring/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../week03/hello-spring/hello-spring/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week03/hello-spring/hello-spring/src/main/java/hello/hello_spring/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week03/hello-spring/hello-spring/src/main/java/hello/hello_spring/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week03/hello-spring/hello-spring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../week03/hello-spring/hello-spring/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;0Mz0&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/26-27-GDGoC-SSWU/BE-2.git&quot;,
+    &quot;accountId&quot;: &quot;c163c474-5846-420a-9145-12ca9d75c3f4&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.7065118484919224" />
+      <entry key="MS500" value="2.607601177181752" />
+      <entry key="S2" value="3.5591252038343018" />
+      <entry key="S5" value="6.112366669618261" />
+      <entry key="S10" value="9.169484591066274" />
+      <entry key="S30" value="13.475802435720544" />
+      <entry key="S60" value="15.084376761934845" />
+      <entry key="M2" value="16.001833644464085" />
+      <entry key="M5" value="16.846211125814335" />
+      <entry key="M10" value="18.131451051278553" />
+      <entry key="M15" value="19.18404220938685" />
+      <entry key="M30" value="20.961862635041676" />
+      <entry key="H1" value="22.277141572533555" />
+      <entry key="H2" value="23.080346933147247" />
+      <entry key="H4" value="23.524593966238633" />
+      <entry key="D1" value="23.918509074934104" />
+      <entry key="W1" value="23.988301924433614" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.6514410301616738" />
+      <entry key="MS500" value="2.591619140251316" />
+      <entry key="S2" value="3.5504218849268723" />
+      <entry key="S5" value="6.10249967609388" />
+      <entry key="S10" value="9.160708362630542" />
+      <entry key="S30" value="13.471095374721763" />
+      <entry key="S60" value="15.081693880855465" />
+      <entry key="M2" value="16.00039857943193" />
+      <entry key="M5" value="16.84559588028639" />
+      <entry key="M10" value="18.13110023215226" />
+      <entry key="M15" value="19.183783004378874" />
+      <entry key="M30" value="20.96171100211253" />
+      <entry key="H1" value="22.277057456193827" />
+      <entry key="H2" value="23.080302318819765" />
+      <entry key="H4" value="23.524570949207128" />
+      <entry key="D1" value="23.918505133588383" />
+      <entry key="W1" value="23.988301358718612" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3Lfy096Kx8NG4ImQKufHUwXpPi1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "yejin",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/IdeaProjects/BE-2/yejin/week07",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc1d0865-d3ae-421a-8970-f32a68948555" name="Changes" comment="" />
+      <created>1793859192053</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793859192053</updated>
+      <workItem from="1793859193749" duration="248000" />
+      <workItem from="1793859465266" duration="1097000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
